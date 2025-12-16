@@ -12,3 +12,15 @@ After successful build, verify that images were created:
 ```bash
 docker image ls
 ```
+
+Create a custom (non-default) Docker bridge network:
+
+```bash
+sudo docker network create my_bridge
+```
+
+Verify that the network was created successfully:
+
+```bash
+sudo docker network ls
+```
